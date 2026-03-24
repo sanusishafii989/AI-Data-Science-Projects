@@ -254,7 +254,7 @@ Each project is contained in its own Jupyter notebook (`.ipynb`). To run:
 
 **Sanusi Shafii**
 Federal University Dutsin-Ma (FUDMA), Katsina State, Nigeria
-📧 sanusi33@gmail.com
+📧 s.shafii27683@fudutsinma.edu.ng | sanusishafii989@gmail.com
 
 ---
 
