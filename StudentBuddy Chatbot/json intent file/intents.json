@@ -1,0 +1,794 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "What's up",
+        "Yo",
+        "Hi bot",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help with your studying today?",
+        "Hi there! Ready to learn something?",
+        "Hey! What are we studying today?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "I'm leaving"
+      ],
+      "responses": [
+        "Goodbye! Keep up the great work!",
+        "See you later — stay productive!",
+        "Bye! Come back anytime you need help studying."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it",
+        "That helped"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime — I'm here for your study needs!"
+      ]
+    },
+
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How can I study better?",
+        "Give me study tips",
+        "How do I focus?",
+        "Help me study",
+        "How to memorize things?",
+        "How can I improve my learning?",
+        "Best study techniques?",
+        "How do I stop procrastinating on studying?"
+      ],
+      "responses": [
+        "A great technique is the Pomodoro method: 25 minutes studying, 5 minutes break.",
+        "Try active recall: test yourself instead of just rereading.",
+        "Spaced repetition boosts long-term memory!",
+        "Studying in small, consistent sessions works better than long, infrequent ones."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I need motivation",
+        "I'm tired of studying",
+        "How do I stay motivated?",
+        "Help me push through studying"
+      ],
+      "responses": [
+        "You're capable of more than you think — keep going!",
+        "One small step today puts you far ahead tomorrow.",
+        "Remember why you started. You're on the right track!"
+      ]
+    },
+
+    {
+      "tag": "study_schedule",
+      "patterns": [
+        "Make a study schedule",
+        "Create a study plan",
+        "Help me organize my study time",
+        "I need a timetable",
+        "Plan my study hours"
+      ],
+      "responses": [
+        "Start by listing your subjects and assigning 1–2 focused hours per day.",
+        "Use 3 blocks: learning, practicing, and reviewing.",
+        "Break tasks into small chunks and place them into a weekly schedule."
+      ]
+    },
+
+    {
+      "tag": "productivity",
+      "patterns": [
+        "How do I be productive?",
+        "Productivity tips",
+        "Help me get things done",
+        "I feel distracted",
+        "I can't focus"
+      ],
+      "responses": [
+        "Turn off notifications and set a 25-minute timer.",
+        "Clean your study space — a tidy desk boosts focus.",
+        "Set one clear goal for each study session."
+      ]
+    },
+
+    {
+      "tag": "time_management",
+      "patterns": [
+        "How do I manage my time?",
+        "Time management tips?",
+        "I run out of time",
+        "I can't manage my study time"
+      ],
+      "responses": [
+        "Prioritize tasks using the 1–3 method: 1 big, 3 medium tasks daily.",
+        "Plan your day the night before and keep it realistic.",
+        "Avoid multitasking — focus on one thing at a time."
+      ]
+    },
+
+    {
+      "tag": "exam_tips",
+      "patterns": [
+        "How do I prepare for exams?",
+        "Exam study tips",
+        "Help me prepare for a test",
+        "How do I study before an exam?"
+      ],
+      "responses": [
+        "Review past exams — patterns repeat.",
+        "Summarize chapters in your own words.",
+        "Simulate the exam environment with timed practice."
+      ]
+    },
+
+    {
+      "tag": "stress_help",
+      "patterns": [
+        "I'm stressed",
+        "Studying stresses me out",
+        "School makes me anxious",
+        "Test anxiety",
+        "I'm overwhelmed"
+      ],
+      "responses": [
+        "Take a deep breath — small breaks help reduce stress.",
+        "Try a 5-minute walk to clear your mind.",
+        "Break your task into the smallest possible step and start there."
+      ]
+    },
+
+    {
+      "tag": "math_help",
+      "patterns": [
+        "I need help with math",
+        "Math is hard",
+        "How to get better at math?",
+        "How to practice math?"
+      ],
+      "responses": [
+        "Practice is key — math improves with repetition.",
+        "Break down problems and solve step-by-step.",
+        "Try solving 3–5 problems daily to stay sharp."
+      ]
+    },
+
+    {
+      "tag": "science_help",
+      "patterns": [
+        "I need help with science",
+        "How to study science?",
+        "Science tips",
+        "How do I understand physics?"
+      ],
+      "responses": [
+        "Focus on concepts first before formulas.",
+        "Use diagrams and visuals — science is very visual!",
+        "Teach the topic to someone else to reinforce your understanding."
+      ]
+    },
+
+    {
+      "tag": "history_help",
+      "patterns": [
+        "How do I study history?",
+        "History tips",
+        "History is boring",
+        "How to remember history dates?"
+      ],
+      "responses": [
+        "Turn dates into timelines to visualize events.",
+        "Understand cause-effect, not just memorization.",
+        "Stories stick better than pure numbers."
+      ]
+    },
+
+    {
+      "tag": "languages_help",
+      "patterns": [
+        "How do I learn a language?",
+        "Help me practice languages",
+        "Language learning tips",
+        "How to get better at English?"
+      ],
+      "responses": [
+        "Immerse yourself: listen, speak, read a little every day.",
+        "Use spaced repetition for vocabulary.",
+        "Practice speaking — even 5 minutes helps!"
+      ]
+    },
+
+    {
+      "tag": "breaks",
+      "patterns": [
+        "Should I take breaks?",
+        "How often should I take breaks?",
+        "Break advice",
+        "I'm tired"
+      ],
+      "responses": [
+        "Short breaks every 25 minutes help your brain reset.",
+        "Move around, stretch, or grab water — your brain will thank you.",
+        "Breaks prevent burnout and improve retention."
+      ]
+    },
+
+    {
+      "tag": "sleep",
+      "patterns": [
+        "How much sleep do I need?",
+        "I'm tired from studying",
+        "Does sleep help studying?",
+        "I'm sleepy while studying"
+      ],
+      "responses": [
+        "7–9 hours is ideal for most people.",
+        "Sleep turns short-term study into long-term memory.",
+        "If you're tired, take a short rest — your brain needs energy too."
+      ]
+    },
+
+    {
+      "tag": "resources",
+      "patterns": [
+        "Give me study resources",
+        "Any good websites for studying?",
+        "Where can I learn online?",
+        "Study tools?"
+      ],
+      "responses": [
+        "Sanusi & Yaseer Academy is great for math & science.",
+        "Coursera and Udemy have courses on almost any topic.",
+        "Quizlet is perfect for flashcards and memorization practice."
+      ]
+    },
+
+    {
+      "tag": "fun_facts",
+      "patterns": [
+        "Tell me something interesting",
+        "Fun fact",
+        "Give me a cool fact"
+      ],
+      "responses": [
+        "Did you know? Your brain uses about 20% of your body's energy!",
+        "Fun fact: Writing things down boosts memory more than typing.",
+        "The 'spacing effect' proves that studying over time beats cramming."
+      ]
+    },
+
+    {
+      "tag": "encouragement",
+      "patterns": [
+        "I'm not good enough",
+        "I feel dumb",
+        "I can't do this",
+        "Studying is too hard"
+      ],
+      "responses": [
+        "You're doing better than you think.",
+        "Every expert was once a beginne r — keep going.",
+        "You’re smarter than you realize. One step at a time!"
+      ]
+    },
+
+    {
+      "tag": "default",
+      "patterns": [
+        "random text",
+        "I don't know",
+        "???",
+        "What do you do?"
+      ],
+      "responses": [
+        "I'm StudyBuddyML — I help you study smarter! Ask me anything about learning, focus, or motivation.",
+        "I’m here to help you stay productive and improve your studying!"
+      ]
+    },
+    
+    {
+      "tag": "fudma_location",
+      "patterns": [
+        "Where is FUDMA located?",
+        "Location of Federal University Dutsin-Ma",
+        "FUDMA address",
+        "Campus location",
+        "Where is the university situated?",
+        "Which state is FUDMA in?"
+      ],
+      "responses": [
+        "Federal University Dutsin-Ma is located in Dutsin-Ma, Katsina State, Nigeria.",
+        "FUDMA is situated in Dutsin-Ma town, Katsina State, in the northwestern region of Nigeria.",
+        "The main campus is at Dutsin-Ma along Katsina-Kano Road in Katsina State."
+      ]
+    },
+
+    {
+      "tag": "fudma_establishment",
+      "patterns": [
+        "When was FUDMA established?",
+        "Year FUDMA was founded",
+        "How old is FUDMA?",
+        "Founding year of Federal University Dutsin-Ma",
+        "When did FUDMA start?"
+      ],
+      "responses": [
+        "FUDMA was established in 2011 by the Federal Government of Nigeria.",
+        "Federal University Dutsin-Ma was founded in 2011, making it one of the newer federal universities in Nigeria.",
+        "The university was established in 2011 along with eight other federal universities."
+      ]
+    },
+
+    {
+      "tag": "fudma_vc",
+      "patterns": [
+        "Who is the Vice Chancellor of FUDMA?",
+        "Current VC of Federal University Dutsin-Ma",
+        "FUDMA vice chancellor",
+        "University head",
+        "Who leads FUDMA?"
+      ],
+      "responses": [
+        "The current Vice Chancellor of FUDMA is Professor Armaya'u Hamisu Bichi (please verify current status as appointments may change).",
+        "Professor Armaya'u Hamisu Bichi serves as the Vice Chancellor of FUDMA.",
+        "As of my last update, Professor Armaya'u Hamisu Bichi is the VC of Federal University Dutsin-Ma."
+      ]
+    },
+
+    {
+      "tag": "fudma_faculties",
+      "patterns": [
+        "What faculties are in FUDMA?",
+        "List of faculties at Federal University Dutsin-Ma",
+        "FUDMA departments",
+        "Schools in FUDMA",
+        "Academic faculties"
+      ],
+      "responses": [
+        "FUDMA has faculties including: Faculty of Agriculture, Faculty of Arts, Faculty of Education, Faculty of Engineering, Faculty of Environmental Science, Faculty of Law, Faculty of Life Sciences, Faculty of Management Sciences, Faculty of Pharmaceutical Sciences, and Faculty of Physical Sciences.",
+        "Major faculties at FUDMA include Agriculture, Arts, Education, Engineering, Environmental Sciences, Law, Life Sciences, Management Sciences, Pharmaceutical Sciences, and Physical Sciences.",
+        "You can study in various faculties like Engineering, Law, Agriculture, Sciences, and Management Sciences at FUDMA."
+      ]
+    },
+
+    {
+      "tag": "fudma_courses",
+      "patterns": [
+        "What courses does FUDMA offer?",
+        "Popular programs at FUDMA",
+        "Degree programs",
+        "Available courses",
+        "What can I study at FUDMA?"
+      ],
+      "responses": [
+        "FUDMA offers diverse courses including: Medicine, Law, Engineering (Civil, Electrical, Mechanical), Computer Science, Biochemistry, Microbiology, Agriculture, Accounting, Business Administration, Economics, and many more.",
+        "Popular programs include: Medicine & Surgery, Law, Engineering disciplines, Computer Science, Biological Sciences, and Management courses.",
+        "From Medicine to Humanities, FUDMA offers undergraduate programs across multiple faculties. Check their official website for the complete list."
+      ]
+    },
+
+    {
+      "tag": "fudma_admission",
+      "patterns": [
+        "How to gain admission to FUDMA?",
+        "Admission requirements",
+        "JAMB cut off mark for FUDMA",
+        "How to apply to FUDMA",
+        "Post UTME at FUDMA"
+      ],
+      "responses": [
+        "Admission requires: UTME registration, choosing FUDMA as first choice, meeting the cut-off mark (usually 180+), participating in Post-UTME screening, and having required O'Level credits.",
+        "You need JAMB score (minimum 180 for most courses), 5 O'Level credits including English and Mathematics, and must pass the Post-UTME screening.",
+        "Check FUDMA's admission portal annually for specific cut-off marks and requirements which vary by course."
+      ]
+    },
+
+    {
+      "tag": "fudma_hostel",
+      "patterns": [
+        "Does FUDMA have hostels?",
+        "Accommodation on campus",
+        "Hostel fees",
+        "Living on campus",
+        "Student housing"
+      ],
+      "responses": [
+        "Yes, FUDMA provides hostel accommodation for students, though limited. Allocation is usually based on first-come, first-served or merit.",
+        "There are male and female hostels on campus. You should apply early through the accommodation office as spaces are limited.",
+        "Hostel facilities are available with different fee structures. Off-campus housing is also common around Dutsin-Ma town."
+      ]
+    },
+
+    {
+      "tag": "fudma_fees",
+      "patterns": [
+        "School fees at FUDMA",
+        "Tuition fees",
+        "How much is FUDMA fees?",
+        "Acceptance fee",
+        "Payment structure"
+      ],
+      "responses": [
+        "FUDMA fees vary by faculty and level. For current session, freshers typically pay between ₦50,000 to ₦100,000 depending on course. Always check the university portal for updated fees.",
+        "School fees differ: Science/Engineering courses are usually higher than Arts. Acceptance fee is separate and must be paid first.",
+        "Visit FUDMA's official website or contact the bursary department for exact, up-to-date fee information as amounts change yearly."
+      ]
+    },
+
+    {
+      "tag": "fudma_library",
+      "patterns": [
+        "Tell me about FUDMA library",
+        "University library",
+        "Study facilities",
+        "Learning resources",
+        "Library hours"
+      ],
+      "responses": [
+        "FUDMA has a central library with textbooks, journals, and digital resources. It's a great place for quiet study and research.",
+        "The university library offers both physical and online resources. You'll need your student ID for access.",
+        "Library services include lending, reference sections, e-resources, and reading spaces. Opening hours are typically 8am-10pm on weekdays."
+      ]
+    },
+
+    {
+      "tag": "fudma_climate",
+      "patterns": [
+        "Weather in Dutsin-Ma",
+        "Climate at FUDMA",
+        "Is it hot in Katsina?",
+        "What to wear on campus",
+        "Weather conditions"
+      ],
+      "responses": [
+        "Dutsin-Ma has a hot semi-arid climate with distinct dry and rainy seasons. Temperatures can reach 40°C in hot season.",
+        "Bring light clothes for hot weather (October-April) and warmer clothes for harmattan (December-January). Rainy season is from May-September.",
+        "The climate is typically hot and dry. Stay hydrated and use sun protection during the day!"
+      ]
+    },
+
+    {
+      "tag": "fudma_transport",
+      "patterns": [
+        "How to get to FUDMA",
+        "Transportation to campus",
+        "Travel to Dutsin-Ma",
+        "Nearest airport",
+        "Public transport"
+      ],
+      "responses": [
+        "Dutsin-Ma is accessible by road from Katsina (about 1 hour) or Kano (about 2.5 hours). There's no airport in Dutsin-Ma itself.",
+        "You can fly to either Katsina or Kano airports, then take a taxi or bus to Dutsin-Ma. Buses run regularly from major northern cities.",
+        "Public transport includes buses and taxis from Katsina city. Many students use the university shuttle services when available."
+      ]
+    },
+
+    {
+      "tag": "fudma_medical",
+      "patterns": [
+        "Medical facilities at FUDMA",
+        "University clinic",
+        "Health services",
+        "Hospital near campus",
+        "Student healthcare"
+      ],
+      "responses": [
+        "FUDMA has a health center/clinic for basic medical services. For serious cases, there's Federal Medical Center Katsina about 1 hour away.",
+        "The university provides basic healthcare through its medical center. Students are advised to have health insurance for comprehensive coverage.",
+        "There's a clinic on campus and Dutsin-Ma town has several pharmacies and smaller health facilities."
+      ]
+    },
+
+    {
+      "tag": "fudma_social",
+      "patterns": [
+        "Social life at FUDMA",
+        "Student activities",
+        "Clubs and societies",
+        "Entertainment in Dutsin-Ma",
+        "Making friends on campus"
+      ],
+      "responses": [
+        "FUDMA has various student clubs, religious groups, and departmental associations. Social life includes campus events, sports, and cultural activities.",
+        "Join student organizations like SUG, press club, drama group, or religious societies. Dutsin-Ma town offers local markets and eateries.",
+        "Campus life includes Freshers' Week, cultural days, sports competitions, and academic conferences. It's a growing community!"
+      ]
+    },
+
+    {
+      "tag": "fudma_food",
+      "patterns": [
+        "Food on campus",
+        "Cafeteria at FUDMA",
+        "Where to eat",
+        "Local food in Dutsin-Ma",
+        "Cooking facilities"
+      ],
+      "responses": [
+        "There are cafeterias and food vendors on campus serving affordable meals. Hostels may have cooking areas for self-catering.",
+        "Try local dishes like tuwo shinkafa, miyan kuka, and suya. Campus cafeterias offer both local and continental options.",
+        "You'll find several 'mama put' spots around campus. Many students cook in hostel common areas to save costs."
+      ]
+    },
+
+    {
+      "tag": "fudma_security",
+      "patterns": [
+        "Is FUDMA safe?",
+        "Security on campus",
+        "Safety measures",
+        "Campus security",
+        "Is Dutsin-Ma safe?"
+      ],
+      "responses": [
+        "FUDMA has campus security personnel and the university works with local security agencies. Always take normal precautions, especially at night.",
+        "The campus is generally secure with security posts. Follow university safety guidelines and travel in groups when possible.",
+        "Like any institution, maintain security awareness. Use well-lit paths and report suspicious activities to campus security."
+      ]
+    },
+
+    {
+      "tag": "fudma_ict",
+      "patterns": [
+        "ICT facilities at FUDMA",
+        "Computer access",
+        "WiFi on campus",
+        "Digital resources",
+        "E-learning platform"
+      ],
+      "responses": [
+        "FUDMA provides ICT facilities including computer labs, campus WiFi (in specific areas), and an e-learning portal for students.",
+        "There are ICT centers and computer labs across faculties. Check with your department for specific digital resources available.",
+        "The university uses Moodle or similar platforms for e-learning. WiFi hotspots are available in library and administrative areas."
+      ]
+    },
+
+    {
+      "tag": "fudma_sports",
+      "patterns": [
+        "Sports facilities",
+        "Football field at FUDMA",
+        "Sporting activities",
+        "Gym on campus",
+        "University sports"
+      ],
+      "responses": [
+        "FUDMA has sports facilities including football fields, basketball/volleyball courts, and indoor game spaces. Sports competitions are held inter-faculty.",
+        "You'll find a main sports complex and various fields. The university participates in Nigerian University Games (NUGA).",
+        "Sports facilities are available for both recreational and competitive use. Join departmental teams or casual play groups."
+      ]
+    },
+
+    {
+      "tag": "fudma_ranking",
+      "patterns": [
+        "FUDMA ranking in Nigeria",
+        "University ranking",
+        "How good is FUDMA?",
+        "Reputation of Federal University Dutsin-Ma",
+        "NUC ranking"
+      ],
+      "responses": [
+        "As a relatively new university (founded 2011), FUDMA is growing its reputation. It's recognized by NUC and offers accredited programs.",
+        "FUDMA is continuously improving its rankings. It's particularly known for faculties like Agriculture and Engineering in the northern region.",
+        "While not among the oldest, FUDMA is establishing itself as a solid federal university with modern facilities and growing research output."
+      ]
+    },
+
+    {
+      "tag": "fudma_alumni",
+      "patterns": [
+        "FUDMA alumni",
+        "Notable graduates",
+        "Former students",
+        "Alumni network",
+        "Graduate success"
+      ],
+      "responses": [
+        "As a young university, FUDMA's alumni network is growing. Graduates work in various sectors across Nigeria and internationally.",
+        "FUDMA alumni include emerging professionals in medicine, law, engineering, and public service. The alumni association is active.",
+        "Though established in 2011, FUDMA graduates are already making impacts in their fields. Connect through the alumni office."
+      ]
+    },
+
+    {
+      "tag": "fudma_research",
+      "patterns": [
+        "Research opportunities",
+        "Postgraduate studies",
+        "Masters programs",
+        "PhD at FUDMA",
+        "Research centers"
+      ],
+      "responses": [
+        "FUDMA offers postgraduate programs (PGD, Masters, PhD) in various fields. Research focuses on areas relevant to northern Nigeria's development.",
+        "There are research opportunities especially in Agriculture, Environmental Science, and Renewable Energy. Check departmental notice boards for ongoing projects.",
+        "The university has research centers and encourages student involvement in research. Postgraduate school coordinates advanced degrees."
+      ]
+    },
+
+    {
+      "tag": "fudma_holidays",
+      "patterns": [
+        "Academic calendar",
+        "School holidays",
+        "Semester breaks",
+        "When does session end?",
+        "Resumption date"
+      ],
+      "responses": [
+        "FUDMA follows a typical Nigerian academic calendar: First semester (Oct-Jan), break (Feb), Second semester (Mar-June), long vacation (Jul-Sept).",
+        "Academic calendar includes Christmas break (December), mid-semester break, and long vacation. Always verify current calendar on university website.",
+        "Session usually starts October. There are breaks for Sallah, Christmas, and between semesters. Check official announcements for exact dates."
+      ]
+    },
+
+    {
+      "tag": "fudma_motto",
+      "patterns": [
+        "What is FUDMA's motto?",
+        "University motto",
+        "FUDMA slogan",
+        "Catchphrase"
+      ],
+      "responses": [
+        "FUDMA's motto is 'Knowledge, Excellence and Service' reflecting its commitment to academic excellence and community development.",
+        "The motto 'Knowledge, Excellence and Service' guides FUDMA's educational philosophy and institutional values."
+      ]
+    },
+
+    {
+      "tag": "fudma_color",
+      "patterns": [
+        "University colors",
+        "FUDMA school colors",
+        "What color represents FUDMA?",
+        "Institutional colors"
+      ],
+      "responses": [
+        "FUDMA's official colors are Blue and Gold, representing knowledge, excellence, and the bright future of its students.",
+        "The university colors are Blue and Gold, prominently featured in academic gowns, logos, and university branding."
+      ]
+    },
+
+    {
+      "tag": "fudma_scholarship",
+      "patterns": [
+        "Scholarships at FUDMA",
+        "Financial aid",
+        "Bursary awards",
+        "How to get scholarship?",
+        "Student funding"
+      ],
+      "responses": [
+        "FUDMA students can access various scholarships: Federal government scholarships, state scholarships (for indigenes), and private/organizational awards.",
+        "Check with Student Affairs for scholarship opportunities. Merit-based and need-based scholarships are available for eligible students.",
+        "Scholarships include: Katsina State scholarship for indigenes, PTDF, NNPC, and other corporate scholarships. Maintain good grades to qualify."
+      ]
+    },
+
+    {
+      "tag": "fudma_website",
+      "patterns": [
+        "FUDMA website",
+        "Official portal",
+        "University website",
+        "Online platform",
+        "Where to get information"
+      ],
+      "responses": [
+        "The official website is www.fudutsinma.edu.ng - check for admission, academic, and administrative information.",
+        "Visit fudutsinma.edu.ng for all official updates, student portal access, and university announcements.",
+        "All official information is on www.fudutsinma.edu.ng. Student portal handles registration, results, and other services."
+      ]
+    },
+
+    {
+      "tag": "fudma_contact",
+      "patterns": [
+        "Contact FUDMA",
+        "Phone number",
+        "Email address",
+        "How to reach administration",
+        "Registrar contact"
+      ],
+      "responses": [
+        "Contact via: Phone: +234 XXX XXX XXXX (check website for current numbers), Email: info@fudutsinma.edu.ng, Address: Federal University Dutsin-Ma, Katsina State.",
+        "Reach the university through their official website contact page or visit the administration block on campus.",
+        "For specific inquiries, contact relevant offices: Admissions, Bursary, Registry. Official contacts are listed on FUDMA website."
+      ]
+    },
+
+    {
+      "tag": "fudma_culture",
+      "patterns": [
+        "Cultural activities",
+        "Hausa culture at FUDMA",
+        "Traditional events",
+        "Cultural diversity",
+        "Local traditions"
+      ],
+      "responses": [
+        "FUDMA celebrates cultural diversity with events showcasing Hausa, Yoruba, Igbo, and other Nigerian cultures. Cultural day is a popular event.",
+        "Being in Katsina, you'll experience rich Hausa culture. The university also hosts inter-cultural events promoting national unity.",
+        "Students from all over Nigeria bring diverse cultures. Traditional festivals, food fairs, and cultural competitions are part of campus life."
+      ]
+    },
+
+    {
+      "tag": "fudma_student_union",
+      "patterns": [
+        "Student Union Government",
+        "SUG FUDMA",
+        "Student leadership",
+        "Union activities",
+        "Student representation"
+      ],
+      "responses": [
+        "FUDMA has an active Student Union Government (SUG) representing student interests. Elections are held annually.",
+        "The SUG organizes social events, advocates for student welfare, and serves as liaison between students and administration.",
+        "Student Union Government is vibrant at FUDMA. Get involved through departmental associations or SUG committees."
+      ]
+    },
+
+    {
+      "tag": "fudma_religious",
+      "patterns": [
+        "Religious activities",
+        "Mosque on campus",
+        "Church at FUDMA",
+        "Prayer facilities",
+        "Religious tolerance"
+      ],
+      "responses": [
+        "FUDMA has both mosque and chapel for Muslim and Christian students respectively. Religious harmony is emphasized on campus.",
+        "There are separate prayer grounds for Muslims and Christians. Various religious groups (MSA, CFA) organize activities and support.",
+        "The university provides spaces for worship and respects religious diversity. Interfaith dialogues promote understanding among students."
+      ]
+    },
+
+    {
+      "tag": "fudma_nysc",
+      "patterns": [
+        "NYSC mobilization from FUDMA",
+        "Service year after graduation",
+        "Youth service",
+        "Graduation and NYSC"
+      ],
+      "responses": [
+        "FUDMA graduates are mobilized for NYSC like other Nigerian universities. Clearance starts from your final year.",
+        "As a federally recognized institution, FUDMA graduates participate in NYSC. The Student Affairs office handles mobilization.",
+        "After graduation, you'll be mobilized for NYSC. Ensure all academic and financial clearances are completed for seamless mobilization."
+      ]
+    }
+  ]
+}
+
