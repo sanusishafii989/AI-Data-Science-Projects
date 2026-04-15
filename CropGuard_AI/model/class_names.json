@@ -1,0 +1,38 @@
+{
+  "display_names": [
+    "Tomato - Early Blight",
+    "Tomato - Late Blight",
+    "Tomato - Leaf Mold",
+    "Tomato - Healthy",
+    "Bell Pepper - Bacterial Spot",
+    "Bell Pepper - Healthy",
+    "Maize - Common Rust",
+    "Maize - Northern Leaf Blight",
+    "Maize - Healthy",
+    "Potato - Early Blight",
+    "Potato - Late Blight",
+    "Potato - Healthy",
+    "Vine Crop - Black Rot",
+    "Vine Crop - Black Measles",
+    "Vine Crop - Healthy"
+  ],
+  "raw_names": [
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___healthy",
+    "Pepper,_bell___Bacterial_spot",
+    "Pepper,_bell___healthy",
+    "Corn___Common_rust",
+    "Corn___Northern_Leaf_Blight",
+    "Corn___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Grape___Black_rot",
+    "Grape___Esca_(Black_Measles)",
+    "Grape___healthy"
+  ],
+  "num_classes": 15,
+  "image_size": 128
+}
